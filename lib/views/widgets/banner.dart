@@ -16,6 +16,8 @@ class MyBanner extends StatelessWidget {
         child: Stack(
           children: [
             Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
                   "NEW COLLECTIONS",
@@ -55,7 +57,7 @@ class MyBanner extends StatelessWidget {
                 ),
                 MaterialButton(
                   onPressed: () {},
-                  color: Colors.black12,
+                  color: Colors.black,
                   child: Text(
                     "SHOP NOW",
                     style: TextStyle(color: Colors.white, fontSize: 12),
